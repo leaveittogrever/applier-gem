@@ -1,6 +1,5 @@
 require 'job-applier-manager'
 
-
 JobApplierManager.create_database
 
 job = Job.new(name: "Avengers", company_name: "Marvel", number_of_positions: 2)

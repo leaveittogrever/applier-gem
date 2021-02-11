@@ -2,7 +2,7 @@ Gem::Specification.new do |spec|
   spec.name        = 'job-applier-manager'
   spec.version     = '0.0.0'
   spec.summary     = "A job applier manager"
-  spec.description = "A job applier manager"
+  spec.description = "A reporting suite for job applications."
   spec.authors     = ["Paul Grever"]
   spec.email       = '[paulgrever@gmail.com]'
   spec.files       = [
