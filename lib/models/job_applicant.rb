@@ -21,6 +21,7 @@ class JobApplicant
 
   def apply_to_job
     Database.applicant_applies_to_job(self)
+    get_applicant_results
   end
 
   def get_applicant_results

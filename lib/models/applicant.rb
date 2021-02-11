@@ -32,6 +32,5 @@ class Applicant
         end
     job_application = JobApplicant.new(job_id: job.id, applicant_id: applicant.id)
     job_application.apply_to_job
-    job_application.get_applicant_results
   end
 end
